@@ -40,9 +40,9 @@ service docker start
 chkconfig docker on
 
 # A few variables we will refer to later...
-ASG_NAME=consul-asg
-REGION=ap-southeast-1
-EXPECTED_SIZE=5
+ASG_NAME=$ASG_NAME
+REGION=$REGION
+EXPECTED_SIZE=$EXPECTED_SIZE
 
 # Return the id of each instance in the cluster.
 function cluster-instance-ids {
