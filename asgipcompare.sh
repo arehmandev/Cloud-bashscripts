@@ -25,5 +25,11 @@ echo ---
 echo ---
 echo $route53ips
 
+if [[ $asgips != $route53ips ]]; then
+  echo "IPs are invalid"
+else
+  echo "IPs are the same no changes needed"
+fi
+
 # Give the ASG name as $1 argument
 # Give the hosted zone as an $2 argument e.g. Z4LXVANPVC5RF
