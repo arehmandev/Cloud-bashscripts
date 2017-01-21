@@ -1,3 +1,4 @@
+### to create: apm install --packages-file atomplugins.txt
 ansible-snippets@0.2.0
 autocomplete-go@1.3.0
 autocomplete-python@1.8.26
